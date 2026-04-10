@@ -10,11 +10,18 @@ reclaiming-balance-1.0
 
 # To Do
 
-1. Make about Leah Section
-2. Certifications section
-3. Contact form email with prompt to get intake form
-4. Home Page, About Leah, list of Services and a email to get intake and calendar
-5. Try to get a staging website set up
+1. Certifications section
+2. Contact form email with prompt to get intake form - need email destination
+3. Need list of Services and a email to get intake
+4. Set up sign up calendar? Calendy?
+5. Deploy to web
+
+--- Deployment Tasks
+
+- Make sure CNAME file gets added as part of deploy process
+- Create a little script that better automates the release process
+  - Clean up branch that it makes locally
+  - Add CNAME file as necessary
 
 # Future
 
@@ -26,9 +33,7 @@ reclaiming-balance-1.0
 
 # Done
 
----
-
-- Make sure CNAME file gets added as part of deploy process ✅
-- Create a little script that better automates the release process ✅
-  - Clean up branch that it makes locally ✅
-  - Add CNAME file as necessary ✅
+Make about Leah Section
+Make Philosophy Section
+Routes
+Improve screen responsiveness

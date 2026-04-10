@@ -1,0 +1,241 @@
+// app global css in SCSS form
+.text-h2 {
+  font-family: "Kaushan Script", cursive;
+  font-weight: 400;
+  font-size: 32;
+  font-style: normal;
+}
+.text-h2-alt {
+  font-size: 50px;
+  font-weight: 400;
+  // margin: 0;
+  // font-family: "Quicksand", sans-serif;
+  // font-family: "Delius Swash Caps", cursive;
+  // font-family: "Sintony";
+  font-family: "Kaushan Script", cursive;
+  // color: #000000 !important;
+}
+
+.text-h3 {
+  font-family: "Kaushan Script", cursive;
+  font-size: 30;
+  font-weight: 400;
+  font-style: normal;
+}
+.text-h3-alt {
+  font-family: "Kaushan Script", cursive;
+  font-size: 26;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.text-h4 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  // font-weight: bold;
+  margin: 0;
+}
+
+.text-h4-open-sans {
+  font-family: "Open Sans", sans-serif;
+  // font-optical-sizing: auto;
+  font-size: 24px;
+  font-weight: 400;
+  font-style: normal;
+  // font-variation-settings: "wdth" 100;
+}
+
+.text-h4-alt {
+  font-family: "Quicksand", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+.text-h5 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+  margin: 0;
+}
+
+.text-h6 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+  margin: 0;
+}
+
+.text-h8 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  margin: 0;
+  color: white;
+}
+
+.text-h7 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.img {
+  max-width: 100%;
+}
+
+.about-card {
+  max-width: 250px;
+  margin-top: 10px;
+  border-radius: 22px;
+}
+
+.event-card {
+  max-width: 350px;
+  border-radius: 22px;
+}
+
+.event-button {
+  color: #5cd6c0;
+  size: 50px;
+  border-radius: 22px;
+}
+.event-title {
+  color: #000000;
+  font-size: 20px;
+  font-weight: bold;
+}
+.event-label {
+  color: #000000;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.spacer {
+  height: 10.5rem;
+  width: 100%;
+  @media screen and (max-width: 768px) {
+    height: 8.5rem;
+    width: 100%;
+  }
+
+  @media screen and (max-width: 1024px) {
+    height: 5.5rem;
+    width: 100%;
+  }
+
+  @media screen and (max-width: 430px) {
+    height: 0.5rem;
+    width: 100%;
+  }
+}
+
+.bg-img {
+  background: url(../statics/images/breathe.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.bg-img .text_holder {
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 22px; /* here white cause body as white background */
+}
+
+.bg-img-2 {
+  background: url(../statics/images/path.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.bg-img-3 {
+  background: url(../statics/images/stack.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 991px) {
+  main > div {
+    flex-direction: column;
+  }
+
+  main > div article {
+    flex-grow: 1;
+  }
+
+  main > div aside nav ul {
+    flex-direction: row;
+  }
+
+  main > div aside nav ul li {
+    flex-grow: 1;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  header,
+  main,
+  main > div,
+  main > div aside nav ul {
+    flex-direction: column;
+  }
+
+  nav {
+    width: 100%;
+  }
+
+  .share ul {
+    justify-content: center;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  p {
+    text-align: justify;
+  }
+}
+@media (max-width: 400px) {
+  header,
+  main,
+  main > div,
+  main > div aside nav ul {
+    flex-direction: column;
+  }
+  .text-h2 {
+    font-size: 32x;
+    letter-spacing: 1px;
+  }
+  .text-h2-alt {
+    font-size: 40px;
+  }
+  .text-h3 {
+    font-size: 26px;
+  }
+  .text-h3-alt {
+    font-size: 30px;
+  }
+  .text-h4 {
+    font-size: 20px;
+  }
+  .text-h4-alt {
+    font-size: 26px;
+  }
+  .text-h6 {
+    font-size: 14px;
+  }
+  .event-title {
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .event-label {
+    color: #000000;
+    font-size: 14px;
+    font-weight: bold;
+  }
+}
