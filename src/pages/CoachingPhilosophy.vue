@@ -12,7 +12,7 @@
             </p>
             <div class="flex flex-center">
               <q-avatar rounded size="200px">
-                <img src="../statics/images/logo.png" />
+                <img src="/images/logo.png" />
               </q-avatar>
             </div>
             <p class="text-h4 text-center" style="color: white">
@@ -126,18 +126,6 @@ export default {
   }
 }
 
-// .rocksBackground {
-//   background: url(../statics/images/riverrock.jpeg)
-//   background-size: cover
-//   background-position: center
-//   background-attachment: fixed
-//   background-repeat: no-repeat
-//   opacity: 0.6
-//   text-align: center
-//   height: 100%
-//   width: 100%
-//   z-index: -1
-// }
 .lightBackground {
   background-size: cover;
   background-position: center;

@@ -11,7 +11,7 @@
               About Leah
             </p>
             <q-avatar size="200px">
-              <img src="../statics/images/Leah-Chouinard.jpg" />
+              <img src="/images/Leah-Chouinard.jpg" />
             </q-avatar>
             <p class="text-h4 text-center" style="color: white">
               As a coach, Leah has ....
@@ -134,18 +134,6 @@ export default {
   }
 }
 
-// .rocksBackground {
-//   background: url(../statics/images/riverrock.jpeg)
-//   background-size: cover
-//   background-position: center
-//   background-attachment: fixed
-//   background-repeat: no-repeat
-//   opacity: 0.6
-//   text-align: center
-//   height: 100%
-//   width: 100%
-//   z-index: -1
-// }
 .lightBackground {
   background-size: cover;
   background-position: center;

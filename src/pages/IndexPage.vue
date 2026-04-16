@@ -39,7 +39,7 @@
               contain
               height="200px"
               width="200px"
-              src="../statics/images/logo.png"
+              src="/images/logo.png"
               style="border-radius: 22px"
             >
             </q-img>
@@ -93,10 +93,7 @@
             Leah's coaching philosophy is centered arounf the belief that...
           </div>
           <div class="col-6 q-py-lg">
-            <q-img
-              src="../statics/images/stack.jpeg"
-              style="border-radius: 22px"
-            >
+            <q-img src="/images/stack.jpeg" style="border-radius: 22px">
             </q-img>
           </div>
         </div>
@@ -208,18 +205,6 @@ export default {
   }
 }
 
-// .rocksBackground {
-//   background: url(../statics/images/riverrock.jpeg)
-//   background-size: cover
-//   background-position: center
-//   background-attachment: fixed
-//   background-repeat: no-repeat
-//   opacity: 0.6
-//   text-align: center
-//   height: 100%
-//   width: 100%
-//   z-index: -1
-// }
 .lightBackground {
   background-size: cover;
   background-position: center;

@@ -1,6 +1,6 @@
 <template>
   <div class="mailing-list-form q-pt-md q-pb-xl q-px-xl col-12 lightBackground">
-    <q-form @submit="onSubmit" class="q-gutter-sm mailing-list-form">
+    <q-form @submit.prevent="onSubmit" class="q-gutter-sm mailing-list-form">
       <q-input
         class="q-col-2 email-input"
         filled
@@ -59,29 +59,50 @@ export default defineComponent({
   setup() {
     const $q = useQuasar();
     const formData = ref({
-      recipient: "",
+      // default recipient set to desired address; can be changed later
+      recipient: "leah@reclaiming-balance.com",
       firstName: "",
       lastName: "",
+      subject: "",
       message: "",
     });
 
     const onSubmit = () => {
-      // In a real application, you would send this data to a backend server
-      // for processing and sending the email.
-      // For demonstration, we'll just show a notification.
+      // Compose a mailto: URL so the user's email client opens with the fields prefilled.
+      // This is a client-side approach that doesn't require a backend. For
+      // server-side or automated sending use EmailJS, Formspree, or your own API.
 
-      console.log("Form Data:", formData.value);
+      const recipient =
+        formData.value.recipient || "leah@reclaiming-balance.com";
+      const subject =
+        formData.value.subject ||
+        `Message from ${formData.value.firstName} ${formData.value.lastName}`;
+
+      const bodyLines = [
+        `First Name: ${formData.value.firstName || "(not provided)"}`,
+        `Last Name: ${formData.value.lastName || "(not provided)"}`,
+        "",
+        formData.value.message || "(no message provided)",
+      ];
+
+      const body = encodeURIComponent(bodyLines.join("\n"));
+      const mailto = `mailto:${encodeURIComponent(
+        recipient
+      )}?subject=${encodeURIComponent(subject)}&body=${body}`;
+
+      // Open the user's default mail client with the composed message
+      window.location.href = mailto;
 
       $q.notify({
         color: "positive",
-        message: "Email submitted successfully (backend integration needed)",
-        icon: "check_circle",
+        message: "Opening your email client to send the message",
+        icon: "send",
       });
 
-      // Optionally, clear the form after submission
-      formData.value.recipient = "";
+      // Clear the form (optional)
       formData.value.firstName = "";
       formData.value.lastName = "";
+      formData.value.subject = "";
       formData.value.message = "";
     };
 

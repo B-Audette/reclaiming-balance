@@ -7,7 +7,7 @@
     >
       <q-toolbar class="justify-between" style="background-color: #faefe1ff">
         <q-avatar>
-          <img src="../statics/images/logo.png" />
+          <img src="/images/logo.png" />
         </q-avatar>
         <span
           class="text-h3 q-mr-md"
