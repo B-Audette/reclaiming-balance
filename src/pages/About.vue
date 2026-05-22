@@ -7,20 +7,42 @@
 
         <div class="q-py-xl q-px-sm" style="display: block">
           <div class="q-pa-lg">
-            <p class="text-h2-alt text-center" style="color: white">
-              About Leah
+            <div class="q-gutter-md q-mb-md q-row items-center">
+              <q-avatar class="responsive-avatar">
+                <img src="/images/Leah-Chouinard.jpg" />
+              </q-avatar>
+              <span class="text-h2-alt text-left text-white q-ml-md"
+                >About Leah</span
+              >
+            </div>
+            <p class="text-h4-bold text-center" style="color: white">
+              Leah is a
+              <a
+                href="https://nbhwc.org/what-is-a-health-coach/"
+                target="_blank"
+                style="color: white; text-decoration: underline"
+              >
+                board-certified health coach (NBHWC)</a
+              >
+              with a deep passion for helping people see the best version of
+              themselves and helping them take steps toward their desired life.
             </p>
-            <q-avatar size="200px">
-              <img src="/images/Leah-Chouinard.jpg" />
-            </q-avatar>
-            <p class="text-h4 text-center" style="color: white">
-              As a coach, Leah has ....
+
+            <p class="text-h4-bold text-center" style="color: white">
+              Through her compassion, humor, creativity, and fierce acceptance
+              of people and their lived experiences, Leah has helped clients of
+              all ages, genders, and health statuses reach - or appropriately
+              refine - their goals and radiate more brightly than before.
             </p>
-            <p class="text-h4 text-center" style="color: white">
-              Credentials and Accomplishments:
-            </p>
-            <p class="text-h4 text-center" style="color: white">
-              Leah attended School at X
+
+            <p class="text-h4-bold text-center" style="color: white">
+              Leah holds a master’s degree in
+              <a
+                href="https://csh.umn.edu/academics/degrees-minor-and-certificates/master-arts-degree-integrative-health-and-wellbeing"
+                target="_blank"
+                style="color: white; text-decoration: underline"
+                >Integrative Health & Wellness Coaching</a
+              >
             </p>
           </div>
 
@@ -34,25 +56,13 @@
     </div>
 
     <div id="id_services">
-      <div style="background-color: #000000ad !important">
-        <div class="q-px-xl col-12">
+      <div style="background-color: #000000ad !important; padding-bottom: 2em">
+        <div class="q-px-sm col-12">
           <br />
-          <h3
-            class="text-h2 text-white text-center"
-            style="margin-bottom: 0.5em"
-          >
-            Contact
-          </h3>
-          <div class="q-px-xl text-center text-h4" style="color: #b7b7a4ff">
-            Let's get in touch!
-          </div>
-          <mailing-list-form />
+          <h3 class="text-h3-alt text-white text-center">Contact</h3>
+          <schedule-card />
         </div>
       </div>
-      <div
-        class="row flex flex-center"
-        style="background-color: #000000ad !important"
-      ></div>
     </div>
     <q-toolbar
       class="flex flex-center text-white"
@@ -66,7 +76,7 @@
 <script>
 import { ref } from "vue";
 import { scroll, useMeta } from "quasar";
-import MailingListForm from "src/components/MailingListForm.vue";
+import ScheduleCard from "src/components/ScheduleCard.vue";
 
 const { getScrollTarget, setVerticalScrollPosition } = scroll;
 
@@ -85,7 +95,7 @@ export default {
     };
   },
   components: {
-    MailingListForm,
+    ScheduleCard,
   },
   data() {
     return {
@@ -150,5 +160,39 @@ export default {
 .event-card {
   width: 50%;
   max-width: 300px;
+}
+.bg-img-2 {
+  position: relative;
+  /* Ensure stacking context for overlay */
+}
+.bg-img-2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* 50% black overlay */
+  z-index: 1;
+  pointer-events: none;
+}
+.bg-img-2 > * {
+  position: relative;
+  z-index: 2;
+}
+
+.responsive-avatar {
+  width: 200px;
+  height: 200px;
+
+  @media screen and (max-width: 767px) {
+    width: 120px;
+    height: 120px;
+  }
+
+  @media screen and (max-width: 400px) {
+    width: 100px;
+    height: 100px;
+  }
 }
 </style>

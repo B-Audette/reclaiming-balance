@@ -8,16 +8,18 @@
         <div class="q-py-xl q-px-sm" style="display: block">
           <div class="q-pa-lg">
             <p class="text-h2-alt text-center" style="color: white">
-              Coaching Philosophy
+              Reclaiming Balance Philosophy
             </p>
-            <div class="flex flex-center">
-              <q-avatar rounded size="200px">
-                <img src="/images/logo.png" />
-              </q-avatar>
-            </div>
-            <p class="text-h4 text-center" style="color: white">
-              Describe coaching philosophy here. This is where we can talk about
-              it!
+            <div class="flex flex-center"></div>
+            <p class="text-h4-bold text-center" style="color: white">
+              Truth be told, life bombards us with hardship and harmful
+              encounters in the physical, mental-emotional, and spiritual
+              regards. After taking so many hits, it begins to feel like you
+              can’t get back up again. Hopelessness, grim diagnoses, and
+              exhaustion can keep us from recognizing that a better life not
+              only exists, but is possible. No matter what you’ve been through,
+              what labels you carry, or how you’ve been perceived by others, you
+              can ALWAYS reclaim who you truly are: light, love, and well-being.
             </p>
           </div>
         </div>
@@ -26,25 +28,18 @@
     </div>
 
     <div id="id_services">
-      <div style="background-color: #000000ad !important">
-        <div class="q-px-xl col-12">
+      <div style="background-color: #000000ad !important; padding-bottom: 2em">
+        <div class="q-px-sm col-12">
           <br />
-          <h3
-            class="text-h2 text-white text-center"
-            style="margin-bottom: 0.5em"
-          >
-            Contact
-          </h3>
-          <div class="q-px-xl text-center text-h4" style="color: #b7b7a4ff">
-            Let's get in touch!
+          <div class="q-mb-md flex flex-center">
+            <q-avatar rounded size="200px">
+              <img src="/images/logo.png" />
+            </q-avatar>
           </div>
-          <mailing-list-form />
+          <h3 class="text-h3-alt text-white text-center">Contact</h3>
+          <schedule-card />
         </div>
       </div>
-      <div
-        class="row flex flex-center"
-        style="background-color: #000000ad !important"
-      ></div>
     </div>
     <q-toolbar
       class="flex flex-center text-white"
@@ -58,7 +53,7 @@
 <script>
 import { ref } from "vue";
 import { scroll, useMeta } from "quasar";
-import MailingListForm from "src/components/MailingListForm.vue";
+import ScheduleCard from "src/components/ScheduleCard.vue";
 
 const { getScrollTarget, setVerticalScrollPosition } = scroll;
 
@@ -77,7 +72,7 @@ export default {
     };
   },
   components: {
-    MailingListForm,
+    ScheduleCard,
   },
   data() {
     return {
@@ -142,5 +137,25 @@ export default {
 .event-card {
   width: 50%;
   max-width: 300px;
+}
+
+.bg-img-3 {
+  position: relative;
+  /* Ensure stacking context for overlay */
+}
+.bg-img-3::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* 50% black overlay */
+  z-index: 1;
+  pointer-events: none;
+}
+.bg-img-3 > * {
+  position: relative;
+  z-index: 2;
 }
 </style>

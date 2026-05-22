@@ -10,9 +10,10 @@
             <p class="text-h2-alt text-center" style="color: white">
               Welcome to Reclaiming Balance
             </p>
-            <p class="q-pb-xl text-h4 text-center" style="color: white">
-              where we empower individuals to find harmony in their lives
-              through personalized coaching and support.
+            <p class="q-pb-xl text-h4-bold text-center" style="color: white">
+              Where you get to reclaim your unique sense of well-being and live
+              life to the fullest through individualized coaching and holistic
+              support.
             </p>
           </div>
           <div class="spacer"></div>
@@ -25,24 +26,26 @@
       <div style="background-color: #ddbea9ff !important">
         <div class="q-px-xl col-12">
           <br />
-          <h3 class="text-h3-alt text-left" style="margin-bottom: 0.5em">
-            Meet Leah
+          <h3 class="text-h3-alt text-center" style="margin-bottom: 0.5em">
+            Take a breath.
           </h3>
-          <div class="q-py-sm q-px-sm text-left text-h4">
-            Leah is a certified life coach with a passion for helping
-            individuals achieve balance and fulfillment in their lives. More
-            information here about her certifications and maybe more statements
-            about who she wants to show up as here.
-          </div>
+          <h3 class="text-h3-alt text-center" style="margin-bottom: 0.5em">
+            Relax your shoulders.
+          </h3>
+          <h3 class="text-h3-alt text-center" style="margin-bottom: 0.5em">
+            It’s time to focus on YOU as you reclaim the well-being that is
+            rightfully yours
+          </h3>
+          <div class="q-py-sm q-px-sm text-left text-h4"></div>
           <div class="col-6 q-py-lg">
-            <q-img
+            <!-- <q-img
               contain
               height="200px"
               width="200px"
               src="/images/logo.png"
               style="border-radius: 22px"
             >
-            </q-img>
+            </q-img> -->
           </div>
         </div>
       </div>
@@ -59,20 +62,21 @@
 
         <div class="q-py-xl q-px-sm" style="display: block">
           <div class="q-pa-lg">
-            <p class="text-h2-alt text-center" style="color: white">
-              Placeholder Text Title
-            </p>
             <p class="text-h4 text-center" style="color: white">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              We all come into this world with a natural sense of well-being.
+              Without conscious thought, we grew from a cluster of simple cells
+              into a complex, living, loving, thinking, human being. Along the
+              path of life, however, we collect health-harming toxins, habits,
+              and experiences that, collectively, strip away the vibrant health
+              that was ours to begin with. Integrative health coaching aims to
+              reconnect you with your truest self. Your happiest self. Your
+              healthiest self. Your most purposeful self. How we get there
+              depends on YOUR life story, circumstances, values, and goals.
+              Unique to every person, it can be the most meaningful journey one
+              can embark on.
             </p>
           </div>
 
-          <br />
-          <br />
-          <br />
           <br />
         </div>
         <br />
@@ -84,16 +88,27 @@
         <div class="q-px-xl col-12">
           <br />
           <h3
-            class="text-h3-alt text-left text-white"
+            class="text-h3-alt text-center text-white"
             style="margin-bottom: 0.5em"
           >
-            Coaching Philosophy
+            Reclaiming Balance Philosophy
           </h3>
-          <div class="q-py-sm q-px-sm text-left text-white text-h4">
-            Leah's coaching philosophy is centered arounf the belief that...
+          <div class="q-py-sm q-px-sm text-center text-white text-h4">
+            Truth be told, life bombards us with hardship and harmful encounters
+            in the physical, mental-emotional, and spiritual regards. After
+            taking so many hits, it begins to feel like you can’t get back up
+            again. Hopelessness, grim diagnoses, and exhaustion can keep us from
+            recognizing that a better life not only exists, but is possible. No
+            matter what you’ve been through, what labels you carry, or how
+            you’ve been perceived by others, you can ALWAYS reclaim who you
+            truly are: light, love, and well-being.
           </div>
           <div class="col-6 q-py-lg">
-            <q-img src="/images/stack.jpeg" style="border-radius: 22px">
+            <q-img
+              src="/images/stack.jpeg"
+              class="responsive-img"
+              style="border-radius: 22px"
+            >
             </q-img>
           </div>
         </div>
@@ -105,25 +120,13 @@
     </div>
 
     <div id="id_services">
-      <div style="background-color: #000000ad !important">
-        <div class="q-px-xl col-12">
+      <div style="background-color: #000000ad !important; padding-bottom: 2em">
+        <div class="q-px-sm col-12">
           <br />
-          <h3
-            class="text-h2 text-white text-center"
-            style="margin-bottom: 0.5em"
-          >
-            Contact
-          </h3>
-          <div class="q-px-xl text-center text-h4" style="color: #b7b7a4ff">
-            Let's get in touch!
-          </div>
-          <mailing-list-form />
+          <h3 class="text-h3-alt text-white text-center">Contact</h3>
+          <schedule-card />
         </div>
       </div>
-      <div
-        class="row flex flex-center"
-        style="background-color: #000000ad !important"
-      ></div>
     </div>
     <q-toolbar
       class="flex flex-center text-white"
@@ -138,6 +141,7 @@
 import { ref } from "vue";
 import { scroll, useMeta } from "quasar";
 import MailingListForm from "src/components/MailingListForm.vue";
+import ScheduleCard from "src/components/ScheduleCard.vue";
 
 const { getScrollTarget, setVerticalScrollPosition } = scroll;
 
@@ -156,7 +160,7 @@ export default {
     };
   },
   components: {
-    MailingListForm,
+    ScheduleCard,
   },
   data() {
     return {
@@ -210,6 +214,26 @@ export default {
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
+}
+
+.bg-img-2 {
+  position: relative;
+  /* Ensure stacking context for overlay */
+}
+.bg-img-2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* 50% black overlay */
+  z-index: 1;
+  pointer-events: none;
+}
+.bg-img-2 > * {
+  position: relative;
+  z-index: 2;
 }
 
 .custom_tab {

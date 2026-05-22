@@ -36,6 +36,13 @@
   // font-weight: bold;
   margin: 0;
 }
+.text-h4-bold {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  // font-weight: bold;
+  margin: 0;
+}
 
 .text-h4-open-sans {
   font-family: "Open Sans", sans-serif;
@@ -156,6 +163,27 @@
   background-repeat: no-repeat;
 }
 
+.responsive-img {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .responsive-img {
+    max-width: 220px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .responsive-img {
+    max-width: 100%;
+  }
+}
+
 @media (max-width: 991px) {
   main > div {
     flex-direction: column;
@@ -195,6 +223,14 @@
     text-align: center;
   }
 
+  .text-h2-alt {
+    font-size: 36px;
+  }
+
+  .text-h4 {
+    font-size: 20px;
+  }
+
   p {
     text-align: justify;
   }
@@ -207,20 +243,24 @@
     flex-direction: column;
   }
   .text-h2 {
-    font-size: 32x;
+    font-size: 26x;
     letter-spacing: 1px;
   }
   .text-h2-alt {
-    font-size: 40px;
+    font-size: 30px;
   }
   .text-h3 {
     font-size: 26px;
   }
   .text-h3-alt {
-    font-size: 30px;
+    font-size: 24px;
   }
   .text-h4 {
-    font-size: 20px;
+    font-size: 16px;
+  }
+  .text-h4-bold {
+    font-size: 16px;
+    font-weight: bold;
   }
   .text-h4-alt {
     font-size: 26px;
