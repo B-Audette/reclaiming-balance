@@ -114,8 +114,16 @@ export default {
     padding-right: 5.5em;
     padding-left: 5.5em;
   }
+  @media screen and (max-width: 767px) {
+    padding-right: 0;
+    padding-left: 0;
+  }
 
   @media screen and (max-width: 430px) {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  @media screen and (max-width: 400px) {
     padding-right: 0;
     padding-left: 0;
   }

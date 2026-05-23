@@ -2,8 +2,9 @@
   <q-card class="q-pa-lg q-mx-auto accent-card" style="max-width: 400px">
     <q-card-section>
       <div class="text-h4 text-center q-mt-sm">
-        Have questions or inquiries? Schedule a call with Leah.
+        Have questions or inquiries?
       </div>
+      <div class="text-h4 text-center">Schedule a call with Leah.</div>
     </q-card-section>
     <q-card-actions align="center">
       <q-btn

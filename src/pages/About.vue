@@ -137,8 +137,16 @@ export default {
     padding-right: 5.5em;
     padding-left: 5.5em;
   }
+  @media screen and (max-width: 767px) {
+    padding-right: 0;
+    padding-left: 0;
+  }
 
   @media screen and (max-width: 430px) {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  @media screen and (max-width: 400px) {
     padding-right: 0;
     padding-left: 0;
   }
@@ -179,20 +187,5 @@ export default {
 .bg-img-2 > * {
   position: relative;
   z-index: 2;
-}
-
-.responsive-avatar {
-  width: 200px;
-  height: 200px;
-
-  @media screen and (max-width: 767px) {
-    width: 120px;
-    height: 120px;
-  }
-
-  @media screen and (max-width: 400px) {
-    width: 100px;
-    height: 100px;
-  }
 }
 </style>
