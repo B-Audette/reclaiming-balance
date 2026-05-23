@@ -1,10 +1,5 @@
 // app global css in SCSS form
-.text-h2 {
-  font-family: "Kaushan Script", cursive;
-  font-weight: 400;
-  font-size: 32;
-  font-style: normal;
-}
+
 .text-h2-alt {
   font-size: 50px;
   font-weight: 400;
@@ -59,40 +54,9 @@
   font-weight: bold;
   margin: 0;
 }
-.text-h5 {
-  font-family: "Quicksand", sans-serif;
-  font-size: 20px;
-  margin: 0;
-}
-
-.text-h6 {
-  font-family: "Quicksand", sans-serif;
-  font-size: 18px;
-  margin: 0;
-}
-
-.text-h8 {
-  font-family: "Quicksand", sans-serif;
-  font-size: 16px;
-  margin: 0;
-  color: white;
-}
-
-.text-h7 {
-  font-family: "Quicksand", sans-serif;
-  font-size: 16px;
-  margin: 0;
-  font-weight: bold;
-}
 
 .img {
   max-width: 100%;
-}
-
-.about-card {
-  max-width: 250px;
-  margin-top: 10px;
-  border-radius: 22px;
 }
 
 .event-card {
@@ -100,16 +64,6 @@
   border-radius: 22px;
 }
 
-.event-button {
-  color: #5cd6c0;
-  size: 50px;
-  border-radius: 22px;
-}
-.event-title {
-  color: #000000;
-  font-size: 20px;
-  font-weight: bold;
-}
 .event-label {
   color: #000000;
   font-size: 16px;
@@ -218,17 +172,9 @@
     flex-direction: column;
   }
 
-  nav {
-    width: 100%;
-  }
-
-  .share ul {
-    justify-content: center;
-  }
-
-  h1 {
-    text-align: center;
-  }
+  // nav {
+  //   width: 100%;
+  // }
 
   .text-h2-alt {
     font-size: 30px;
@@ -253,10 +199,7 @@
   main > div aside nav ul {
     flex-direction: column;
   }
-  .text-h2 {
-    font-size: 26x;
-    letter-spacing: 1px;
-  }
+
   .text-h2-alt {
     font-size: 30px;
   }
@@ -276,14 +219,7 @@
   .text-h4-alt {
     font-size: 26px;
   }
-  .text-h6 {
-    font-size: 14px;
-  }
-  .event-title {
-    color: #000000;
-    font-size: 18px;
-    font-weight: bold;
-  }
+
   .event-label {
     color: #000000;
     font-size: 14px;
@@ -296,9 +232,5 @@
   .responsive-avatar {
     width: 100px;
     height: 100px;
-  }
-
-  .text-h2-alt {
-    font-size: 26px;
   }
 }
