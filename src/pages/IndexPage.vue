@@ -11,8 +11,8 @@
               Welcome to Reclaiming Balance
             </p>
             <p class="q-pb-xl text-h4-bold text-center" style="color: white">
-              Where you get to reclaim your unique sense of well-being and live
-              life to the fullest through individualized coaching and holistic
+              where you get to reclaim your unique sense of well-being and live
+              life to the fullest through personalized coaching and holistic
               support.
             </p>
           </div>
@@ -34,19 +34,10 @@
           </h3>
           <h3 class="text-h3-alt text-center" style="margin-bottom: 0.5em">
             It’s time to focus on YOU as you reclaim the well-being that is
-            rightfully yours
+            rightfully yours.
           </h3>
           <div class="q-py-sm q-px-sm text-left text-h4"></div>
-          <div class="col-6 q-py-lg">
-            <!-- <q-img
-              contain
-              height="200px"
-              width="200px"
-              src="/images/logo.png"
-              style="border-radius: 22px"
-            >
-            </q-img> -->
-          </div>
+          <div class="col-6 q-py-lg"></div>
         </div>
       </div>
       <div
@@ -65,21 +56,93 @@
             <p class="text-h4 text-center" style="color: white">
               We all come into this world with a natural sense of well-being.
               Without conscious thought, we grew from a cluster of simple cells
-              into a complex, living, loving, thinking, human being. Along the
-              path of life, however, we collect health-harming toxins, habits,
-              and experiences that, collectively, strip away the vibrant health
-              that was ours to begin with. Integrative health coaching aims to
-              reconnect you with your truest self. Your happiest self. Your
-              healthiest self. Your most purposeful self. How we get there
-              depends on YOUR life story, circumstances, values, and goals.
-              Unique to every person, it can be the most meaningful journey one
-              can embark on.
+              into a complex, living, loving, thinking, human being.
+            </p>
+            <p class="text-h4 text-center" style="color: white">
+              Along the path of life, however, we collect health-harming toxins,
+              habits, and experiences that, collectively, strip away the vibrant
+              health that was ours to begin with.
+            </p>
+            <p class="text-h4 text-center" style="color: white">
+              Integrative health coaching aims to reconnect you with your truest
+              self. Your happiest self. Your healthiest self. Your most
+              purposeful self. How we get there depends on YOUR life story,
+              circumstances, values, and goals. Unique to every person, it can
+              be the most meaningful journey one can embark on.
             </p>
           </div>
+        </div>
+      </div>
 
+      <div class="q-pa-none bg-img-2" id="id_about">
+        <div class="col-12">
+          <br />
+
+          <div class="q-py-xl q-px-sm" style="display: block">
+            <div class="q-pa-lg">
+              <div class="q-gutter-md q-mb-md q-row items-center">
+                <!-- <q-avatar class="responsive-avatar">
+                <img src="/images/Leah-Chouinard.jpg" />
+              </q-avatar> -->
+                <p class="text-h3 text-center text-white q-ml-md">Meet Leah</p>
+              </div>
+              <p class="text-h4 text-center" style="color: white">
+                Leah is a
+                <a
+                  href="https://nbhwc.org/what-is-a-health-coach/"
+                  target="_blank"
+                  style="color: white; text-decoration: underline"
+                >
+                  board-certified health coach (NBHWC)</a
+                >
+                with a deep passion for helping people see the best version of
+                themselves and helping them take steps toward their desired
+                life.
+              </p>
+              <br />
+              <p class="text-h4 text-center" style="color: white">
+                Through her compassion, humor, creativity, and fierce acceptance
+                of people and their lived experiences, Leah has helped clients
+                of all ages, genders, and health statuses reach - or
+                appropriately refine - their goals and radiate more brightly
+                than before.
+              </p>
+              <br />
+              <p class="text-h4 text-center" style="color: white">
+                Leah holds a master’s degree in
+                <a
+                  href="https://csh.umn.edu/academics/degrees-minor-and-certificates/master-arts-degree-integrative-health-and-wellbeing"
+                  target="_blank"
+                  style="color: white; text-decoration: underline"
+                  >Integrative Health & Wellness Coaching</a
+                >
+                from the University of Minnesota.
+              </p>
+            </div>
+            <p class="text-h4 text-center">
+              <a
+                @click="$router.push('/about')"
+                style="
+                  color: white;
+                  text-decoration: underline;
+                  cursor: pointer;
+                "
+              >
+                Read more about Leah’s health story and journey toward healing
+                here</a
+              >
+            </p>
+          </div>
+          <div class="flex flex-center">
+            <img
+              src="/images/leahleafy.jpeg"
+              class="responsive-img"
+              style="max-width: 70%"
+            />
+          </div>
+          <br />
           <br />
         </div>
-        <br />
       </div>
     </div>
 
@@ -94,15 +157,23 @@
             Reclaiming Balance Philosophy
           </h3>
           <div class="q-py-sm q-px-sm text-center text-white text-h4">
-            Truth be told, life bombards us with hardship and harmful encounters
-            in the physical, mental-emotional, and spiritual regards. After
-            taking so many hits, it begins to feel like you can’t get back up
-            again. Hopelessness, grim diagnoses, and exhaustion can keep us from
-            recognizing that a better life not only exists, but is possible. No
-            matter what you’ve been through, what labels you carry, or how
-            you’ve been perceived by others, you can ALWAYS reclaim who you
-            truly are: light, love, and well-being.
+            Over time, life bombards us with hardship and harmful
+            encounters–physically, emotionally, spiritually, occupationally, and
+            more. After so many hits, it begins to feel like you can’t get back
+            up again. Hopelessness, grim diagnoses, and exhaustion can keep us
+            from recognizing that a better life not only exists, but is
+            possible. No matter what you’ve been through, what labels you carry,
+            or how you’ve been perceived by others, you can ALWAYS reclaim who
+            you truly are: light, love, and well-being.
           </div>
+          <p class="text-h4 text-center">
+            <a
+              @click="$router.push('/coaching-philosophy')"
+              style="color: white; text-decoration: underline; cursor: pointer"
+            >
+              Read more about the Reclaiming Balance Philosophy here</a
+            >
+          </p>
           <div class="col-6 q-py-lg">
             <q-img
               src="/images/stack.jpeg"

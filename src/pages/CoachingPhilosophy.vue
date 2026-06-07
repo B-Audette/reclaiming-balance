@@ -11,15 +11,42 @@
               Reclaiming Balance Philosophy
             </p>
             <div class="flex flex-center"></div>
-            <p class="text-h4-bold text-center" style="color: white">
-              Truth be told, life bombards us with hardship and harmful
-              encounters in the physical, mental-emotional, and spiritual
-              regards. After taking so many hits, it begins to feel like you
-              can’t get back up again. Hopelessness, grim diagnoses, and
+            <p class="text-h4 text-center" style="color: white">
+              Feeling hopeless, exhausted, lonely, stressed, frustrated, or
+              in-pain? I get it.
+              <a
+                @click="$router.push('/about')"
+                style="
+                  color: white;
+                  text-decoration: underline;
+                  cursor: pointer;
+                "
+              >
+                I’ve been there</a
+              >
+              , and it’s these very experiences that propelled me to pursue my
+              passion: being there for others going through troubling times so
+              they can uncover their inner strength, rediscover hope, and pave a
+              new path forward - a path that serves each person and their
+              greatest good.
+            </p>
+            <br />
+            <p class="text-h4 text-center" style="color: white">
+              Messaging from society sometimes tells a different story, saying
+              that a vibrant life isn’t possible with certain health conditions
+              or during specific life chapters, or worse, because of one’s
+              personality traits, environment, occupation, or past experiences.
+            </p>
+            <br />
+            <p class="text-h4 text-center" style="color: white">
+              Limitations and negativity are everywhere these days, but at
+              Reclaiming Balance, we aim to dispel all of that and focus on what
+              is possible and what is GOOD! Hopelessness, grim diagnoses, and
               exhaustion can keep us from recognizing that a better life not
-              only exists, but is possible. No matter what you’ve been through,
-              what labels you carry, or how you’ve been perceived by others, you
-              can ALWAYS reclaim who you truly are: light, love, and well-being.
+              only exists, but is possible to attain. At Reclaiming Balance, we
+              believe that wherever you find yourself on your life’s journey,
+              you CAN reclaim a lifestyle that feels balanced and elicits
+              well-being.
             </p>
           </div>
         </div>

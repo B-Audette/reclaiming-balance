@@ -15,7 +15,7 @@
                 >About Leah</span
               >
             </div>
-            <p class="text-h4-bold text-center" style="color: white">
+            <p class="text-h4 text-center" style="color: white">
               Leah is a
               <a
                 href="https://nbhwc.org/what-is-a-health-coach/"
@@ -27,15 +27,15 @@
               with a deep passion for helping people see the best version of
               themselves and helping them take steps toward their desired life.
             </p>
-
-            <p class="text-h4-bold text-center" style="color: white">
+            <br />
+            <p class="text-h4 text-center" style="color: white">
               Through her compassion, humor, creativity, and fierce acceptance
               of people and their lived experiences, Leah has helped clients of
               all ages, genders, and health statuses reach - or appropriately
               refine - their goals and radiate more brightly than before.
             </p>
-
-            <p class="text-h4-bold text-center" style="color: white">
+            <br />
+            <p class="text-h4 text-center" style="color: white">
               Leah holds a master’s degree in
               <a
                 href="https://csh.umn.edu/academics/degrees-minor-and-certificates/master-arts-degree-integrative-health-and-wellbeing"
@@ -43,6 +43,7 @@
                 style="color: white; text-decoration: underline"
                 >Integrative Health & Wellness Coaching</a
               >
+              from the University of Minnesota.
             </p>
           </div>
 

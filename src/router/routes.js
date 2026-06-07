@@ -18,6 +18,11 @@ const routes = [
         path: "coaching-philosophy",
         component: () => import("pages/CoachingPhilosophy.vue"),
       },
+      {
+        name: "Services",
+        path: "services",
+        component: () => import("pages/Services.vue"),
+      },
     ],
   },
   {

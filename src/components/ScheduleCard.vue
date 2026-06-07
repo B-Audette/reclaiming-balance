@@ -1,10 +1,10 @@
 <template>
   <q-card class="q-pa-lg q-mx-auto accent-card" style="max-width: 400px">
     <q-card-section>
-      <div class="text-h4 text-center q-mt-sm">
-        Have questions or inquiries?
+      <div class="text-h6 text-center q-mt-sm">
+        Have questions or looking to schedule coaching or an intro call?
       </div>
-      <div class="text-h4 text-center">Schedule a call with Leah.</div>
+      <div class="text-h6 text-center">Let's connect!</div>
     </q-card-section>
     <q-card-actions align="center">
       <q-btn

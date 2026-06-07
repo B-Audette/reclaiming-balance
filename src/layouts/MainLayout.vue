@@ -37,7 +37,7 @@
                 </q-item-section>
               </q-item>
 
-              <q-item clickable @click="navigate('Home', 'id_services')">
+              <q-item clickable @click="navigate('Services', 'id_services')">
                 <q-item-section class="event-label" style="color: #5d5047ff">
                   <q-item-label>Services</q-item-label>
                 </q-item-section>
