@@ -49,7 +49,7 @@
     <div class="q-pa-none bg-img-2 horizontal-padding" id="home">
       <div class="col-12">
         <br />
-        <div class="q-py-xl q-px-sm" style="display: block">
+        <div class="q-py-xl q-px-sm">
           <div class="q-pa-lg">
             <p class="text-h4 text-center" style="color: white">
               We all come into this world with a natural sense of well-being.
@@ -71,74 +71,67 @@
           </div>
         </div>
       </div>
-
-      <div class="q-pa-none bg-img-2" id="home">
+    </div>
+    <div style="background-color: #333333">
+      <div>
+        <p class="text-h3-content text-center text-white q-py-sm">Meet Leah</p>
+      </div>
+      <div class="q-pa-none bg-img-2 horizontal-padding">
         <div class="col-12">
           <br />
-          <div class="q-px-sm" style="display: block">
-            <div class="q-pa-lg">
-              <p class="text-h3-content text-center text-white q-ml-md">
-                Meet Leah
-              </p>
-
-              <p class="text-h4 text-center" style="color: white">
-                Leah is a
-                <a
-                  href="https://nbhwc.org/what-is-a-health-coach/"
-                  target="_blank"
-                  style="color: white; text-decoration: underline"
-                >
-                  board-certified health coach (NBHWC)</a
-                >
-                with a deep passion for helping people see the best version of
-                themselves and helping them take steps toward their desired
-                life.
-              </p>
-              <br />
-              <p class="text-h4 text-center" style="color: white">
-                Through her compassion, humor, creativity, and fierce acceptance
-                of people and their lived experiences, Leah has helped clients
-                of all ages, genders, and health statuses reach - or
-                appropriately refine - their goals and radiate more brightly
-                than before.
-              </p>
-              <br />
-              <p class="text-h4 text-center" style="color: white">
-                Leah holds a master’s degree in
-                <a
-                  href="https://csh.umn.edu/academics/degrees-minor-and-certificates/master-arts-degree-integrative-health-and-wellbeing"
-                  target="_blank"
-                  style="color: white; text-decoration: underline"
-                  >Integrative Health & Wellness Coaching</a
-                >
-                from the University of Minnesota.
-              </p>
-            </div>
-            <p class="text-h4 text-center">
+          <div class="q-px-sm">
+            <div class="q-pa-none" id="home"></div>
+            <p class="text-h4 text-center" style="color: white">
+              Leah is a
               <a
-                @click="$router.push('/about')"
-                style="
-                  color: white;
-                  text-decoration: underline;
-                  cursor: pointer;
-                "
+                href="https://nbhwc.org/what-is-a-health-coach/"
+                target="_blank"
+                style="color: white; text-decoration: underline"
               >
-                Read more about Leah’s health story and journey toward healing
-                here</a
+                board-certified health coach (NBHWC)</a
               >
+              with a deep passion for helping people see the best version of
+              themselves and helping them take steps toward their desired life.
             </p>
             <br />
+            <p class="text-h4 text-center" style="color: white">
+              Through her compassion, humor, creativity, and fierce acceptance
+              of people and their lived experiences, Leah has helped clients of
+              all ages, genders, and health statuses reach - or appropriately
+              refine - their goals and radiate more brightly than before.
+            </p>
+            <br />
+            <p class="text-h4 text-center" style="color: white">
+              Leah holds a master’s degree in
+              <a
+                href="https://csh.umn.edu/academics/degrees-minor-and-certificates/master-arts-degree-integrative-health-and-wellbeing"
+                target="_blank"
+                style="color: white; text-decoration: underline"
+                >Integrative Health & Wellness Coaching</a
+              >
+              from the University of Minnesota.
+            </p>
           </div>
-          <div class="flex flex-center">
-            <img
-              src="/images/leahleafy.jpeg"
-              class="responsive-img"
-              style="max-width: 70%; border-radius: 22px"
-            />
-          </div>
-          <br />
+          <p class="text-h4 text-center">
+            <a
+              @click="$router.push('/about')"
+              style="color: white; text-decoration: underline; cursor: pointer"
+            >
+              Read more about Leah’s health story and journey toward healing
+              here</a
+            >
+          </p>
           <br />
         </div>
+        <div class="flex flex-center">
+          <img
+            src="/images/leahleafy.jpeg"
+            class="responsive-img"
+            style="max-width: 70%; border-radius: 22px"
+          />
+        </div>
+        <br />
+        <br />
       </div>
     </div>
 
