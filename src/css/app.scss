@@ -112,6 +112,7 @@
 .bg-img-2::before {
   content: "";
   position: absolute;
+  background-attachment: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -122,6 +123,7 @@
 }
 .bg-img-2 > * {
   position: relative;
+  background-attachment: fixed;
   z-index: 2;
 }
 
