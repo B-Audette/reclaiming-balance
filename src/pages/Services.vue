@@ -1,11 +1,11 @@
 <template>
-  <q-page class="horizontal-padding" bg-color="#faefe1ff">
-    <div class="q-pa-none bg-img-4" id="id_services">
+  <q-page bg-color="#faefe1ff">
+    <div class="q-pa-none bg-img-4 horizontal-padding" id="id_services">
       <div class="col-12">
         <br />
         <br />
 
-        <div class="q-py-xl q-px-sm" style="display: block">
+        <div class="q-py-xl q-px-sm horizontal-padding" style="display: block">
           <div class="q-pa-lg">
             <div class="q-gutter-md q-mb-md q-row items-center">
               <p class="text-h2-alt text-center q-ml-mdt">Services</p>
@@ -15,7 +15,11 @@
         <br />
       </div>
     </div>
-    <div style="background-color: #ddbea9ff !important" id="id_services">
+    <div
+      class="horizontal-padding"
+      style="background-color: #ddbea9ff !important"
+      id="id_services"
+    >
       <div class="col-12">
         <br />
         <br />
@@ -23,10 +27,10 @@
         <div class="q-py-xl q-px-sm" style="display: block">
           <div class="q-pa-lg">
             <div class="q-gutter-md q-mb-md q-row items-center">
-              <p class="text-h3-bold text-left">
+              <p class="text-h4-bold text-left">
                 Individual/private coaching sessions
               </p>
-              <p class="text-h2-bold text-left">
+              <p class="text-h4 text-left">
                 In a 1:1 setting, either virtually or in-person, I’ll use a
                 variety of questions and explorational activities to help you
                 identify your values and well-being vision, work through your
@@ -34,23 +38,45 @@
                 life you’ve been dreaming of. Not sure what your vision looks
                 like yet? Let’s explore that in one of your first sessions!
               </p>
+
+              <p class="text-h4-bold text-left">Group Health Coaching</p>
+
+              <p class="text-h4 text-left">
+                Experience your personal transformation alongside 4-8 others as
+                group members give and receive support and advice from one other
+                in the safety of a caring and confidential space guided by Leah.
+                Groups are formed based on the demographics, conditions, and
+                goals of individuals.
+              </p>
+              <p class="text-h4-bold text-left">Workshops</p>
+
+              <p class="text-h4 text-left">
+                Geared toward workplaces, clinics, support groups, senior living
+                facilities, churches, non-profit organizations, and online
+                groups, workshops are centered around a specified topic and are
+                largely structured in their delivery. Over the course of a
+                pre-determined number of sessions (1-6), workshops will consist
+                of various health coaching activities, educational components,
+                and personalized goal-setting.
+              </p>
+
+              <p class="text-h4 text-left">
+                Please contact Leah to inquire about workshop topics,
+                objectives, and delivery formats at leah@reclaiming-balance.com
+              </p>
+              <p class="text-h4-bold text-left">Speaking</p>
+
+              <p class="text-h4 text-left">
+                Leah is known for her engaging presence and provides vivid
+                details and messages from the heart. By weaving together concise
+                lessons, life wisdom, and her authentic voice, Leah’s talks
+                regularly leave listeners impressed and inspired, equipped to
+                take action. Please contact Leah to discuss potential topics and
+                delivery formats at leah@reclaiming-balance.com
+              </p>
             </div>
-
-            <p class="text-h3-bold text-left" style="color: white">
-              Group Health Coaching
-            </p>
-
-            <p class="text-h2-bold text-center">
-              Experience your personal transformation alongside 4-8 others as
-              group members give and receive support and advice from one other
-              in the safety of a caring and confidential space guided by Leah.
-              Groups are formed based on the demographics, conditions, and goals
-              of individuals.
-            </p>
           </div>
 
-          <br />
-          <br />
           <br />
           <br />
         </div>
@@ -58,43 +84,44 @@
       </div>
     </div>
 
-    <div style="background-color: #cbd2bbff !important">
+    <div
+      class="horizontal-padding"
+      style="background-color: #cbd2bbff !important"
+    >
       <div class="col-12">
         <br />
         <br />
 
         <div class="q-py-xl q-px-sm" style="display: block">
           <div class="q-pa-lg">
-            <div class="q-gutter-md q-mb-md q-row items-center">
-              <p class="text-h3-bold text-left">
-                Individual/private coaching sessions
-              </p>
-              <p class="text-h2-bold text-left">
-                In a 1:1 setting, either virtually or in-person, I’ll use a
-                variety of questions and explorational activities to help you
-                identify your values and well-being vision, work through your
-                struggles, and step into the next version of yourself and the
-                life you’ve been dreaming of. Not sure what your vision looks
-                like yet? Let’s explore that in one of your first sessions!
+            <div class="q-gutter-md q-mb-md q-row items-left">
+              <p class="text-h4-bold text-left">Paying for Coaching</p>
+              <p class="text-h4 text-left">
+                At this time, health and wellness coaching is not an insured
+                service. The National Board of Health & Wellness Coaching is
+                working tirelessly at the national level to provide sufficient
+                evidence (of which there is plenty!) that health coaching
+                changes lives and improves health outcomes and self-efficacy.
+                Payment options for out-of-pocket health coaching services
+                include: HSA/Health Savings Account dollars on your health
+                insurance plan FSA/Flex-Spending Account dollars on your health
+                insurance plan Crowd-funding: asking for financial support
+                Submit a Superbill: some insurance companies might reimburse
+                some out-of-network services and integrative therapies if they
+                treat a verifiable diagnosis. A gift to yourself: The most
+                selfless thing you can do is take high-quality care of yourself
+                so that you can show up in the world fully! When we feel balance
+                in well-being, it is easier to work, be present, and care for
+                others and out communities. Through July 15th, prices are the
+                following: Introductory exploration call - FREE 1-hour session:
+                $75 Abbreviated (30-minute) session: $39 Group coaching will
+                launch this summer!
               </p>
             </div>
-
-            <p class="text-h3-bold text-left" style="color: white">
-              Group Health Coaching
-            </p>
-
-            <p class="text-h2-bold text-center">
-              Experience your personal transformation alongside 4-8 others as
-              group members give and receive support and advice from one other
-              in the safety of a caring and confidential space guided by Leah.
-              Groups are formed based on the demographics, conditions, and goals
-              of individuals.
-            </p>
           </div>
 
           <br />
-          <br />
-          <br />
+
           <br />
         </div>
         <br />
@@ -105,7 +132,7 @@
       <div style="background-color: #000000ad !important; padding-bottom: 2em">
         <div class="q-px-sm col-12">
           <br />
-          <h3 class="text-h3-alt text-white text-center">Contact</h3>
+          <h3 class="text-h3-content text-white text-center">Contact</h3>
           <schedule-card />
         </div>
       </div>

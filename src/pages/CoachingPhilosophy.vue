@@ -1,6 +1,9 @@
 <template>
-  <q-page class="horizontal-padding" bg-color="#faefe1ff">
-    <div class="q-pa-none bg-img-3" id="id_coaching_philosophy">
+  <q-page bg-color="#faefe1ff">
+    <div
+      class="q-pa-none bg-img-3 horizontal-padding"
+      id="id_coaching_philosophy"
+    >
       <div class="col-12">
         <br />
         <br />
@@ -63,7 +66,7 @@
               <img src="/images/logo.png" />
             </q-avatar>
           </div>
-          <h3 class="text-h3-alt text-white text-center">Contact</h3>
+          <h3 class="text-h3-content text-white text-center">Contact</h3>
           <schedule-card />
         </div>
       </div>

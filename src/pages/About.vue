@@ -1,11 +1,11 @@
 <template>
-  <q-page class="horizontal-padding" bg-color="#faefe1ff">
+  <q-page bg-color="#faefe1ff">
     <div class="q-pa-none bg-img-2" id="id_about">
       <div class="col-12">
         <br />
         <br />
 
-        <div class="q-py-xl q-px-sm" style="display: block">
+        <div class="q-py-xl q-px-sm horizontal-padding" style="display: block">
           <div class="q-pa-lg">
             <div class="q-gutter-md q-mb-md q-row items-center">
               <q-avatar class="responsive-avatar">
@@ -60,7 +60,7 @@
       <div style="background-color: #000000ad !important; padding-bottom: 2em">
         <div class="q-px-sm col-12">
           <br />
-          <h3 class="text-h3-alt text-white text-center">Contact</h3>
+          <h3 class="text-h3-content text-white text-center">Contact</h3>
           <schedule-card />
         </div>
       </div>

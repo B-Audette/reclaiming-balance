@@ -10,7 +10,7 @@
           <img src="/images/logo.png" />
         </q-avatar>
         <span
-          class="text-h3 q-mr-md"
+          class="text-h3-title q-mr-md"
           style="color: #5d5047ff"
           id="id_home"
           clickable

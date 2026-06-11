@@ -5,7 +5,9 @@
     <div>
       <div style="font-size: 10vh">404</div>
       <div class="q-pa-xl row items-start q-gutter-xl"></div>
-      <div class="text-h3" style="opacity: 0.4">Oops. Nothing here...</div>
+      <div class="text-h3-content" style="opacity: 0.4">
+        Oops. Nothing here...
+      </div>
       <q-btn
         class="q-mt-xl"
         color="white"

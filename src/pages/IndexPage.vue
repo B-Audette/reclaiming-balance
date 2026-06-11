@@ -1,11 +1,11 @@
 <template>
-  <q-page class="horizontal-padding" bg-color="#faefe1ff">
+  <q-page bg-color="#faefe1ff">
     <div class="q-pa-none bg-img" id="home">
       <div class="col-12">
         <br />
         <br />
 
-        <div class="q-py-xl q-px-sm" style="display: block">
+        <div class="q-py-xl q-px-sm horizontal-padding" style="display: block">
           <div class="q-pa-lg">
             <p class="text-h2-alt text-center" style="color: white">
               Welcome to Reclaiming Balance
@@ -26,13 +26,13 @@
       <div style="background-color: #ddbea9ff !important">
         <div class="q-px-xl col-12">
           <br />
-          <h3 class="text-h3-alt text-center" style="margin-bottom: 0.5em">
+          <h3 class="text-h3-content text-center" style="margin-bottom: 0.5em">
             Take a breath.
           </h3>
-          <h3 class="text-h3-alt text-center" style="margin-bottom: 0.5em">
+          <h3 class="text-h3-content text-center" style="margin-bottom: 0.5em">
             Relax your shoulders.
           </h3>
-          <h3 class="text-h3-alt text-center" style="margin-bottom: 0.5em">
+          <h3 class="text-h3-content text-center" style="margin-bottom: 0.5em">
             It’s time to focus on YOU as you reclaim the well-being that is
             rightfully yours.
           </h3>
@@ -46,11 +46,9 @@
       ></div>
     </div>
 
-    <div class="q-pa-none bg-img-2" id="home">
+    <div class="q-pa-none bg-img-2 horizontal-padding" id="home">
       <div class="col-12">
         <br />
-        <br />
-
         <div class="q-py-xl q-px-sm" style="display: block">
           <div class="q-pa-lg">
             <p class="text-h4 text-center" style="color: white">
@@ -74,18 +72,15 @@
         </div>
       </div>
 
-      <div class="q-pa-none bg-img-2" id="id_about">
+      <div class="q-pa-none bg-img-2" id="home">
         <div class="col-12">
           <br />
-
-          <div class="q-py-xl q-px-sm" style="display: block">
+          <div class="q-px-sm" style="display: block">
             <div class="q-pa-lg">
-              <div class="q-gutter-md q-mb-md q-row items-center">
-                <!-- <q-avatar class="responsive-avatar">
-                <img src="/images/Leah-Chouinard.jpg" />
-              </q-avatar> -->
-                <p class="text-h3 text-center text-white q-ml-md">Meet Leah</p>
-              </div>
+              <p class="text-h3-content text-center text-white q-ml-md">
+                Meet Leah
+              </p>
+
               <p class="text-h4 text-center" style="color: white">
                 Leah is a
                 <a
@@ -132,12 +127,13 @@
                 here</a
               >
             </p>
+            <br />
           </div>
           <div class="flex flex-center">
             <img
               src="/images/leahleafy.jpeg"
               class="responsive-img"
-              style="max-width: 70%"
+              style="max-width: 70%; border-radius: 22px"
             />
           </div>
           <br />
@@ -148,11 +144,11 @@
 
     <div id="id_home">
       <div style="background-color: #6b705cff !important">
-        <div class="q-px-xl col-12">
+        <div class="q-px-xl col-12 horizontal-padding">
           <br />
           <h3
-            class="text-h3-alt text-center text-white"
-            style="margin-bottom: 0.5em"
+            class="text-h3-content text-center text-white"
+            style="margin-bottom: 0.25em"
           >
             Reclaiming Balance Philosophy
           </h3>
@@ -194,7 +190,7 @@
       <div style="background-color: #000000ad !important; padding-bottom: 2em">
         <div class="q-px-sm col-12">
           <br />
-          <h3 class="text-h3-alt text-white text-center">Contact</h3>
+          <h3 class="text-h3-content text-white text-center">Contact</h3>
           <schedule-card />
         </div>
       </div>
@@ -211,7 +207,6 @@
 <script>
 import { ref } from "vue";
 import { scroll, useMeta } from "quasar";
-import MailingListForm from "src/components/MailingListForm.vue";
 import ScheduleCard from "src/components/ScheduleCard.vue";
 
 const { getScrollTarget, setVerticalScrollPosition } = scroll;
