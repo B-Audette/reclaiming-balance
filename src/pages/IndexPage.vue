@@ -290,26 +290,6 @@ export default {
   background-repeat: no-repeat;
 }
 
-.bg-img-2 {
-  position: relative;
-  /* Ensure stacking context for overlay */
-}
-.bg-img-2::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5); /* 50% black overlay */
-  z-index: 1;
-  pointer-events: none;
-}
-.bg-img-2 > * {
-  position: relative;
-  z-index: 2;
-}
-
 .custom_tab {
   width: 150px;
   color: white;
