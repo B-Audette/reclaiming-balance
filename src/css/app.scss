@@ -103,16 +103,15 @@
 .bg-img-2 {
   position: relative; /* Ensure stacking context for overlay */
   background: url(/images/path.jpeg);
-  background-size: 100% auto;
+  background-size: cover;
   background-position: center;
-  // background-attachment: fixed;
+  background-attachment: fixed;
   background-repeat: no-repeat;
 }
 
 .bg-img-2::before {
   content: "";
   position: absolute;
-  // background-attachment: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -123,7 +122,31 @@
 }
 .bg-img-2 > * {
   position: relative;
-  // background-attachment: fixed;
+  z-index: 2;
+}
+
+.bg-img-5 {
+  position: relative; /* Ensure stacking context for overlay */
+  background: url(/images/trees.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.bg-img-5::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7); /* 50% black overlay */
+  z-index: 1;
+  pointer-events: none;
+}
+.bg-img-5 > * {
+  position: relative;
   z-index: 2;
 }
 

@@ -46,7 +46,7 @@
       ></div>
     </div>
 
-    <div class="q-pa-none bg-img-2 horizontal-padding" id="home">
+    <div class="q-pa-none bg-img-5 horizontal-padding" id="home">
       <div class="col-12">
         <br />
         <div class="q-py-xl q-px-sm">
@@ -73,12 +73,14 @@
       </div>
     </div>
     <div style="background-color: #333333">
-      <div>
-        <p class="text-h3-content text-center text-white q-py-sm">Meet Leah</p>
-      </div>
       <div class="q-pa-none bg-img-2 horizontal-padding">
         <div class="col-12">
           <br />
+          <div>
+            <p class="text-h3-content text-center text-white q-py-sm">
+              Meet Leah
+            </p>
+          </div>
           <div class="q-px-sm">
             <div class="q-pa-none" id="home"></div>
             <p class="text-h4 text-center" style="color: white">
