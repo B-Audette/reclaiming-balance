@@ -165,7 +165,7 @@
               Read more about the Reclaiming Balance Philosophy here</a
             >
           </p>
-          <div class="col-6 q-py-lg">
+          <div class="col-6 q-py-lg q-px-lg">
             <q-img
               src="/images/stack.jpeg"
               class="responsive-img"
