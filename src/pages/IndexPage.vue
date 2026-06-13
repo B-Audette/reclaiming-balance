@@ -73,7 +73,7 @@
       </div>
     </div>
     <div style="background-color: #333333">
-      <div class="q-pa-none bg-img-2 horizontal-padding responsive-img">
+      <div class="q-pa-none bg-img-2 horizontal-padding">
         <div class="col-12">
           <br />
           <div>
