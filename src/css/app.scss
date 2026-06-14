@@ -7,6 +7,13 @@
   font-family: "Playfair Display";
   font-style: italic;
 }
+.text-h2-bold {
+  font-size: 54px;
+  font-weight: 600;
+  // font-family: "Kaushan Script", cursive;
+  font-family: "Playfair Display";
+  font-style: italic;
+}
 
 .text-h3-title {
   font-family: "Playfair Display";
@@ -158,11 +165,35 @@
   background-repeat: no-repeat;
 }
 .bg-img-4 {
+  position: relative;
   background: url(/images/riverrock2.png);
   background-size: cover;
-  // background-position: center;
+  background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
+}
+
+.bg-img-4::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  // background: linear-gradient(
+  //   180deg,
+  //   rgba(214, 198, 187, 0.543) 30%,
+  //   rgba(221, 190, 169, 1) 100%
+  // );
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.418) 30%,
+    rgba(221, 190, 169, 1) 100%
+  );
+  z-index: 1;
+  pointer-events: none;
+}
+
+.bg-img-4 > * {
+  position: relative;
+  z-index: 2;
 }
 .responsive-img {
   width: 100%;
@@ -244,7 +275,7 @@
   }
 
   .text-h2-alt {
-    font-size: 30px;
+    font-size: 40px;
   }
 
   .text-h3-content {
@@ -268,7 +299,7 @@
   }
 
   .text-h2-alt {
-    font-size: 30px;
+    font-size: 36px;
   }
   .text-h3-title {
     font-size: 30px;

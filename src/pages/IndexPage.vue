@@ -24,7 +24,7 @@
 
     <div id="id_meet_leah">
       <div style="background-color: #ddbea9ff !important">
-        <div class="q-px-xl col-12">
+        <div class="q-px-xl col-12 horizontal-padding">
           <br />
           <h3 class="text-h3-content text-center" style="margin-bottom: 0.5em">
             Take a breath.
