@@ -23,6 +23,11 @@ const routes = [
         path: "services",
         component: () => import("pages/Services.vue"),
       },
+      {
+        name: "WhatIsCoaching",
+        path: "what-is-integrative-coaching",
+        component: () => import("pages/WhatIsCoaching.vue"),
+      },
     ],
   },
   {

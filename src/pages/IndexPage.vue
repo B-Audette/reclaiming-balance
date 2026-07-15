@@ -27,7 +27,7 @@
         <div class="q-px-xl col-12 horizontal-padding">
           <br />
           <h3 class="text-h3-content text-center" style="margin-bottom: 0.5em">
-            Take a breath.
+            So, take a breath.
           </h3>
           <h3 class="text-h3-content text-center" style="margin-bottom: 0.5em">
             Relax your shoulders.
@@ -46,43 +46,46 @@
       ></div>
     </div>
 
-    <div class="q-pa-none bg-img-5 horizontal-padding" id="home">
+    <div class="q-pa-none bg-img-5 horizontal-padding">
       <div class="col-12">
         <br />
         <div class="q-py-xl q-px-sm">
           <div class="q-pa-lg">
             <p class="text-h4 text-center" style="color: white">
               We all come into this world with a natural sense of well-being.
-              Without conscious thought, we grew from a cluster of simple cells
-              into a complex, living, loving, thinking, human being.
+              Without conscious thought, we grew from a few simple cells into a
+              complex, living, loving, thinking, human being.
             </p>
             <p class="text-h4 text-center" style="color: white">
-              Along the path of life, however, we collect health-harming toxins,
-              habits, and experiences that, collectively, strip away the vibrant
+              Along the path of life, however, we collect health-harming habits,
+              toxins, and experiences that, collectively, strip away the vibrant
               health that was ours to begin with.
             </p>
             <p class="text-h4 text-center" style="color: white">
               Integrative health coaching aims to reconnect you with your truest
               self. Your happiest self. Your healthiest self. Your most
-              purposeful self. How we get there depends on YOUR life story,
-              circumstances, values, and goals. Unique to every person, it can
-              be the most meaningful journey one can embark on.
+              purposeful self. How you get there depends on YOUR life story,
+              circumstances, values, and goals. Unique to every person, coaching
+              can be the most meaningful journey one can embark on.
             </p>
           </div>
         </div>
       </div>
     </div>
-    <div style="background-color: #333333">
-      <div class="q-pa-none bg-img-2 horizontal-padding">
-        <div class="col-12">
-          <br />
-          <div>
-            <p class="text-h3-content text-center text-white q-py-sm">
-              Meet Leah
-            </p>
-          </div>
-          <div class="q-px-sm">
-            <div class="q-pa-none" id="home"></div>
+    <div style="background-color: #333333"></div>
+    <div class="q-pa-none bg-img-2 horizontal-padding">
+      <div class="col-12">
+        <br />
+
+        <img
+          src="/images/leahleafy.jpeg"
+          class="responsive-img"
+          style="max-width: 70%; border-radius: 22px"
+        />
+
+        <p class="text-h2-alt text-center text-white q-py-sm">Meet Leah</p>
+        <div class="q-py-lg q-px-sm">
+          <div class="q-pa-lg">
             <p class="text-h4 text-center" style="color: white">
               Leah is a
               <a
@@ -92,15 +95,16 @@
               >
                 board-certified health coach (NBHWC)</a
               >
-              with a deep passion for helping people see the best version of
-              themselves and helping them take steps toward their desired life.
+              with a genuine passion for helping people realize the best version
+              of themselves and helping them take steps toward their desired
+              life.
             </p>
             <br />
             <p class="text-h4 text-center" style="color: white">
-              Through her compassion, humor, creativity, and fierce acceptance
-              of people and their lived experiences, Leah has helped clients of
-              all ages, genders, and health statuses reach - or appropriately
-              refine - their goals and radiate more brightly than before.
+              Through her compassion, humor, creativity, and deep acceptance of
+              all people and their experiences, Leah has helped clients of all
+              ages, genders, and health statuses reach - or appropriately refine
+              - their goals and shine more brightly than before.
             </p>
             <br />
             <p class="text-h4 text-center" style="color: white">
@@ -114,7 +118,7 @@
               from the University of Minnesota.
             </p>
           </div>
-          <p class="text-h4 text-center">
+          <p class="q-py-lg q-px-sm text-h4 text-center">
             <a
               @click="$router.push('/about')"
               style="color: white; text-decoration: underline; cursor: pointer"
@@ -125,16 +129,9 @@
           </p>
           <br />
         </div>
-        <div class="flex flex-center">
-          <img
-            src="/images/leahleafy.jpeg"
-            class="responsive-img"
-            style="max-width: 70%; border-radius: 22px"
-          />
-        </div>
-        <br />
-        <br />
       </div>
+      <br />
+      <br />
     </div>
 
     <div id="id_home">
@@ -147,15 +144,15 @@
           >
             Reclaiming Balance Philosophy
           </h3>
-          <div class="q-py-sm q-px-sm text-center text-white text-h4">
-            Over time, life bombards us with hardship and harmful
-            encounters–physically, emotionally, spiritually, occupationally, and
-            more. After so many hits, it begins to feel like you can’t get back
-            up again. Hopelessness, grim diagnoses, and exhaustion can keep us
-            from recognizing that a better life not only exists, but is
-            possible. No matter what you’ve been through, what labels you carry,
-            or how you’ve been perceived by others, you can ALWAYS reclaim who
-            you truly are: light, love, and well-being.
+          <div class="q-py-lg q-px-sm text-center text-white text-h4">
+            Over time, life bombards us with hardship and harmful encounters –
+            physically, emotionally, spiritually, occupationally, and more.
+            After so many hits, it begins to feel like you can’t get back up
+            again. Hopelessness, grim diagnoses, and exhaustion can keep us from
+            recognizing that a better life not only exists, but is possible. No
+            matter what you’ve been through, what labels you carry, or how
+            you’ve been perceived by others, you can ALWAYS reclaim who you
+            truly are: light, love, and well-being.
           </div>
           <p class="text-h4 text-center">
             <a
